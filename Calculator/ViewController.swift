@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var firstNum : Double = 0;
     var operation : Int = 0;
     var mathSign: Bool = false;
+    var math: Bool = false;
     
     @IBAction func digits(_ sender: UIButton) {
         if mathSign == true {
@@ -72,7 +73,6 @@ class ViewController: UIViewController {
         }
     }
     
-    print ("dscscsc")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,4 +81,3 @@ class ViewController: UIViewController {
 
 
 }
-
